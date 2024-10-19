@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#inicio {
+    text-align: center;
+    padding: 50px;
+    background-color: #2980B9;
+    color: white;
+    height: 100vh;
+}
+
+#tareas {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #2980B9;
+}
+
+.collapsible {
+    background-color: #2980B9;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.button {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #2980B9;
+}
