@@ -7,67 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Página de Inicio -->
+    <!-- Sección de Portada -->
     <section id="inicio">
-        <h1>Arquitectura de Software</h1>
-        <p>Israel Aquino Cano</p>
-        <button onclick="irATareas()">Ir a Tareas por Semanas</button>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Arquitectura de Software</h1>
+            <p>Por: Israel Aquino Cano</p>
+        </div>
     </section>
 
-    <!-- Sección de Tareas por Semanas -->
-    <section id="tareas" style="display: none;">
-        <h2>Tareas por Semanas</h2>
-        <a href="#inicio" class="button" onclick="volverAPrincipal()">Volver a la página principal</a>
+    <!-- Barra de Navegación -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#arquitectura">¿Qué es la Arquitectura de Software?</a></li>
+            <li><a href="trabajos.html">Trabajos de Clase</a></li> <!-- Aquí está el enlace -->
+        </ul>
+    </nav>
 
-        <!-- Semana 1 -->
-        <div class="semana">
-            <button class="collapsible">Semana 1</button>
-            <div class="content">
-                <p>Contenido de la semana 1...</p>
-                <a href="PRACTICA_01_ARQUITECTURA.pdf" class="button" download>Descargar PDF Semana 1</a>
-                <a href="https://github.com/MoisesAqu/SEMANA-01.git" class="button">Ver en GitHub</a>
-            </div>
-        </div>
-
-        <!-- Semana 2 -->
-        <div class="semana">
-            <button class="collapsible">Semana 2</button>
-            <div class="content">
-                <p>Contenido de la semana 2...</p>
-                <a href="PRACTICA_02_ARQUITECTURA.pdf" class="button" download>Descargar PDF Semana 2</a>
-                <a href="https://github.com/MoisesAqu/SEMANA-02.git" class="button">Ver en GitHub</a>
-            </div>
-        </div>
-
-        <!-- Semana 3 -->
-        <div class="semana">
-            <button class="collapsible">Semana 3</button>
-            <div class="content">
-                <p>Contenido de la semana 3...</p>
-                <a href="PRACTICA_03_ARQUITECTURA.pdf" class="button" download>Descargar PDF Semana 3</a>
-                <a href="https://github.com/MoisesAqu/SEMANA-03.git" class="button">Ver en GitHub</a>
-            </div>
-        </div>
-
-        <!-- Semana 4 -->
-        <div class="semana">
-            <button class="collapsible">Semana 4</button>
-            <div class="content">
-                <p>Contenido de la semana 4...</p>
-                <a href="SEMANA_04_ARQUITECTURA.pdf" class="button" download>Descargar PDF Semana 4</a>
-                <a href="https://github.com/MoisesAqu/SEMANA-04.git" class="button">Ver en GitHub</a>
-            </div>
-        </div>
-
-        <!-- Semana 5 -->
-        <div class="semana">
-            <button class="collapsible">Semana 5</button>
-            <div class="content">
-                <p>Contenido de la semana 5...</p>
-                <a href="SEMANA_05_ARQUITECTURA.pdf" class="button" download>Descargar PDF Semana 5</a>
-                <a href="https://github.com/MoisesAqu/SEMANA-05.git" class="button">Ver en GitHub</a>
-            </div>
-        </div>
+    <!-- Sección de Arquitectura -->
+    <section id="arquitectura">
+        <h2>¿Qué es la Arquitectura de Software?</h2>
+        <p>La arquitectura de software se refiere a la estructura fundamental de un 
+            sistema y cómo todos los componentes interactúan entre sí. Es crucial para 
+            crear sistemas robustos y escalables.</p>
     </section>
 
     <script src="scripts.js"></script>
